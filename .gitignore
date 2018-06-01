@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 *.prefs
+cbm-api/.project
+.project
+cbm-api/.classpath
+cbm-client/.classpath
+cbm-core/.classpath
+cbm-domain/.classpath
+cbm-service/.classpath
+cbm-web-dev/.classpath
+cbm-web-linux/.classpath
+cbm-web/.classpath
