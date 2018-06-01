@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.xw</groupId>
+    <artifactId>cbm</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>parent</artifactId>
+
+  <packaging>pom</packaging>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-test</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-api</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+	  
+	  <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-service</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+	  
+	  <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-domain</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-core</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-client</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-web</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-web-dev</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.xw</groupId>
+        <artifactId>cbm-web-linux</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
