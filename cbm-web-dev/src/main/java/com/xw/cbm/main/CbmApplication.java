@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = {"com.xw.cbm"})
 public class CbmApplication {
 
+	//测试提交
 	public static void main(String[] args) throws Exception {
         SpringApplication.run(CbmApplication.class, args);
    }
